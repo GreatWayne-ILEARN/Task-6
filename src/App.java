@@ -8,7 +8,7 @@ public class App {
     // Database connection 
     private static final String URL = "jdbc:postgresql://localhost:5432/flexi";
     private static final String USER = "postgres";   
-    private static final String PASSWORD = "admin123";
+    private static final String PASSWORD = "blaqbonze";
 
     public static void main(String[] args) throws Exception {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
